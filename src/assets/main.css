@@ -1,0 +1,79 @@
+#header-container {
+  background-color: #0672d0;
+}
+
+#header-container a {
+  text-decoration: none;
+  /* 밑줄 제거 */
+}
+
+#site-name {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 550;
+}
+
+#nav-container {
+  background-color: #059be1;
+  color: #fff;
+}
+
+.v-btn {
+  margin: 0.2rem;
+}
+
+#nav-container .v-btn {
+  /* margin-inline-start: 0rem; */
+  border-radius: 0%;
+}
+
+#footer-container {
+  position: fixed;
+  background: #ccc;
+  font-size: 0.9rem;
+  color: white;
+}
+
+#chip-container {
+  display: inline-flex;
+}
+
+#close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+/* 토글 버튼의 공통 스타일 */
+.sidebar-toggle-on,
+.sidebar-toggle-off {
+  justify-content: center;
+  position: fixed;
+  top: 33rem;
+  z-index: 1;
+  /* transition: margin-left 0.1s ease; */
+}
+
+/* 사이드바가 열렸을 때의 토글 버튼 스타일 */
+.sidebar-toggle-on {
+  margin-left: 14.1rem;
+}
+
+/* 사이드바가 닫혔을 때의 토글 버튼 스타일 */
+.sidebar-toggle-off {
+  margin-left: -1.60rem;
+}
+
+.exit-icon {
+  color: #fff !important;
+  margin-right: 0.7rem;
+  cursor: pointer;
+}
+
+
+.selected-menu-nav-icon {
+  cursor: pointer;
+}
